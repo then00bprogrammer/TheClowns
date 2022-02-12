@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.coem{
+    display: flex;
+    width: 768.5px;
+    height: 250px;
+    margin: auto;
+}
+
+
+
+.co{
+   width: 389.99px; 
+   height: 171px;
+   padding: 30px 30px;
+
+}
+.fo form .l1 input{
+    height: 40.5px;
+    width:  183.99px;
+    margin: 29px 6px auto 6px;
+    padding-left: 10px;
+}
+.fo form .l2 input{
+    height: 40.5px;
+    width:  393.99px;
+    margin: 8px 0px;
+    padding-left: 10px;
+}
+.l1{
+    display: flex;
+    padding: 2px;
+}
+.l2{
+    display: flex;
+    padding-left: 6.6px;
+}
+.btn{
+  float: right;
+  width: 71.3px;
+  height: 38.5px;
+  padding: 8px 16px;
+  margin: 16px 0px;
+  color: #FFFFFF;
+  background-color: #111111;
+  border: none;
+}
+
+/* width="383.99px" */
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 598;
+    margin: 30px auto 15px auto;
+}
+.fan{
+    display: flex;
+    justify-content: center;
+    color: rgb(155,155,155); 
+    font-weight: 100px;
+}
+.map{
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

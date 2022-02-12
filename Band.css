@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    color: black;
+
+}
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #1111; */
+}
+h2,h4{
+    margin: 20px auto;
+}
+.details{
+    width: 800px;
+    height: 93.37vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.details p{
+    
+    line-height: 26px;
+    overflow: visible;
+}
+h2{
+    margin-top: 40px;
+    font-weight: 598;
+    font-size: 34px;
+    /* display: flex;
+    justify-content: center; */
+}
+h4{
+    display: flex;
+    justify-content: center;
+    color: #aaa;
+    font-weight: 100;
+}
+.card1{
+    padding: 10px auto;
+    width: 200px;
+    height: 250px;
+}
+.card1 .text1{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card1 .img1{
+    width: 90%;
+    height: 80%; 
+    padding-left: 5%;
+}
+.card1 .img1 img{
+ 
+    border-radius: 10px;
+    
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 800px){
+    header ul{
+        display: none;
+    }
+    header .menu{
+        display: inline-block;
+    }
+    .cards{
+        flex-direction: column;
+    }
+   /* .card1{
+       margin: 10px 10px;
+       padding: 0;
+   }  */
+   
+}
+@media screen and (max-width: 900px){
+.details{
+    width: 100vw;}
+    .details p{
+        padding: 0px 5px;
+    }
+}
