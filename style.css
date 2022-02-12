@@ -104,3 +104,6 @@ footer{
     background-color: rgb(247,247,247);
     margin-top: 20px;
 }
+.off{
+    display: none;
+}
