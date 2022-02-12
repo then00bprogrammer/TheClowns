@@ -48,6 +48,7 @@ h4{
     padding: 10px auto;
     width: 200px;
     height: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .card1 .text1{
     height: 20%;
