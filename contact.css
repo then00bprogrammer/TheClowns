@@ -1,76 +1,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-.coem{
-    display: flex;
-    width: 768.5px;
-    height: 250px;
-    margin: auto;
-}
-
-
-
-.co{
-   width: 389.99px; 
-   height: 171px;
-   padding: 30px 30px;
-
-}
-.fo form .l1 input{
-    height: 40.5px;
-    width:  183.99px;
-    margin: 29px 6px auto 6px;
-    padding-left: 10px;
-}
-.fo form .l2 input{
-    height: 40.5px;
-    width:  393.99px;
-    margin: 8px 0px;
-    padding-left: 10px;
-}
-.l1{
-    display: flex;
-    padding: 2px;
-}
-.l2{
-    display: flex;
-    padding-left: 6.6px;
-}
-.btn{
-  float: right;
-  width: 71.3px;
-  height: 38.5px;
-  padding: 8px 16px;
-  margin: 16px 0px;
-  color: #FFFFFF;
-  background-color: #111111;
-  border: none;
-}
-
-/* width="383.99px" */
-
-h1{
+h1
+{
     display: flex;
     justify-content: center;
     font-weight: 598;
     margin: 30px auto 15px auto;
 }
-.fan{
+.fan
+{
     display: flex;
     justify-content: center;
     color: rgb(155,155,155); 
     font-weight: 100px;
 }
+.coem
+{
+    display: flex;
+    width: 768.5px;
+    margin: auto;
+}
+
+/* Contact Details */
+.co
+{
+   width: 389.99px; 
+   height: 171px;
+   padding: 30px 30px;
+}
+i
+{
+    margin-right: 10px;
+}
+
+/* Designing and aligning contents of the Form */
+.l1
+{
+    display: flex;
+    padding: 2px;
+}
+.l2
+{
+    display: flex;
+    padding-left: 2px;
+}
+.fo form .l1 input
+{
+    height: 40.5px;
+    width:  183.99px;
+    margin: 29px 6px auto 6px;
+    padding-left: 10px;
+}
+.fo form .l2 input
+{
+    height: 40.5px;
+    width:  394.89px;
+    margin: 8px 0px;
+    margin-left: 6px;
+    margin-right: 6px;
+    padding-left: 10px;
+}
+
+.btn
+{
+  float: right;
+  width: 71.3px;
+  height: 38.5px;
+  padding: 8px 16px;
+  margin: 16px;
+  margin-right: 6px;
+  color: #FFFFFF;
+  background-color: #111111;
+  border: none;
+}
+
+/* Displaying an Image */
 .map{
-    width: 100vw;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
-@media screen and (max-width: 800px){
-    .coem{
+
+/* Responsiveness */
+@media screen and (max-width: 768.25px){
+    .coem
+    {
         flex-direction: column;
         max-width: 100vw;
     }
-   
-
+    .btn{
+        float: left;
+        margin-left: 6px;
+    }
 }
+
