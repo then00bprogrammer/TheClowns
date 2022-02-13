@@ -104,6 +104,7 @@ header ul a:hover{
 footer{
     background-color: black;
     padding-top: 25px;
+    display: block;
 }
 footer .cop{
     text-align: right;
