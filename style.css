@@ -104,13 +104,14 @@ header ul a:hover{
 footer{
     background-color: black;
     padding-top: 25px;
-    
+    width:100vw;
 }
 footer .cop{
     text-align: right;
     background-color: black;
     color: white;
     display: block;
+    width:100vw;
 }
 .off{
     display: none;
