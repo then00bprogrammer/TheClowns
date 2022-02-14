@@ -76,7 +76,7 @@ i
 
 /* Displaying an Image */
 .map{
-    width: 100%;
+    width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
 
