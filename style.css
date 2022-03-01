@@ -164,3 +164,13 @@ font-weight: 500;
     display: flex;
     flex-direction: column;
 }
+.se{
+    border-radius: 5%;
+    order: 3;
+    margin-left: auto;
+    padding-right: 35px;
+}
+.se:hover{
+    background-color: black;
+    color: white;
+}
